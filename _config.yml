@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: WanLong
+title: WanLong's blog
 subtitle: 耐心、专注、沉着
-description: "WanLong的个人站，主要涉及前后端等知识共享、实践教程、前沿技术共同学习等方面"  #网站描述 SEO
+description: WanLong的个人站，主要记录自己学习过程
 keywords:
-author: John Doe
+author: WanLong
 language: en
 timezone:
 
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
