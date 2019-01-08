@@ -17,20 +17,20 @@ gulp.task('html', function () {
     };  
     return gulp.src('public/*.html')  
     .pipe(htmlmin(options))  
-    .pipe(gulp.dest('source/pages/'));  
+    .pipe(gulp.dest('gulps/pages/'));  
 });  
 
 // 压缩js文件
 gulp.task('minify-js', function() {
     return gulp.src('public/**/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('source/js'));
+    .pipe(gulp.dest('gupls/js'));
   });
   
 gulp.task('image-min', function () {  
     return gulp.src('public/images/*.{png,jpg}')  
         .pipe(imagemin())  
-        .pipe(gulp.dest('source/dist/images/'));  
+        .pipe(gulp.dest('gulps/images/'));  
 });  
   
 //监听两个文件的文件变化  
@@ -47,3 +47,11 @@ gulp.task('default',
         resolve();
 	});
 }));
+
+
+gulp.task('server',function(){
+	return new Promise(function(resolve,reject){
+        console.log("HTTP Server Started");
+        resolve();
+	});
+})
