@@ -1,11 +1,6 @@
 var gulp = require('gulp');  
-var clone = require('gulp-clone');  
 var htmlmin = require('gulp-htmlmin');  
-var gulpif = require('gulp-if');  
-var cssmin = require('gulp-minify-css');  
-var uglify = require('gulp-uglify');  
-var useref = require('gulp-useref');  
-var clean = require('gulp-clean');  
+var uglify = require('gulp-uglify'); 
 var imagemin = require('gulp-imagemin');  
   
 //压缩html  
@@ -45,4 +40,10 @@ gulp.task('listenPages', function() {
 });  
 // 构建任务流  
 // 执行 task build  
-gulp.task('default',['html','minify-js','image-min']);
+gulp.task('default', 
+   gulp.series( 'html','minify-js','image-min',function(){
+	return new Promise(function(resolve,reject){
+        console.log("HTTP Server Started");
+        resolve();
+	});
+}));
