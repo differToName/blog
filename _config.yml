@@ -81,3 +81,9 @@ deploy:
   type: git
   repository: git@github.com:differToName/blog.git
   branch: master
+
+admin:
+  username: wanlong
+  password_hash: $2a$10$yf6O8ZQBwJ9idu8HGEnw5OaARLYliB8hpERznK9BfmCxc1X62zuGG
+  secret: my super secret phrase
+  deployCommand: './admin_script/hexo-generate.sh'
