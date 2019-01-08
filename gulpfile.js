@@ -24,7 +24,7 @@ gulp.task('html', function () {
 gulp.task('minify-js', function() {
     return gulp.src('public/**/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('gupls/js'));
+    .pipe(gulp.dest('gulps/js'));
   });
   
 gulp.task('image-min', function () {  
