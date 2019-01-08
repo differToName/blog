@@ -1,4 +1,5 @@
-#!/usr/bin/env sh
+dirname $0
+cd `dirname $0`
 time=$(date "+%Y-%m-%d %H:%M:%S")
 cd ..
 hexo g
