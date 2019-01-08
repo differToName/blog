@@ -5,5 +5,3 @@ categories: []
 date: 2019-01-08 17:03:00
 ---
 good
-
-![upload successful](/images/testimg.png)
