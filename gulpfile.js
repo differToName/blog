@@ -45,5 +45,4 @@ gulp.task('listenPages', function() {
 });  
 // 构建任务流  
 // 执行 task build  
-gulp.task('build',gulp.series('html', 'image-min','minify-js',function(){
-}));
+gulp.task('default',['html','minify-js','image-min']);
