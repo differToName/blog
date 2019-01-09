@@ -5,9 +5,8 @@ cd ..
 hexo clean
 hexo g
 gulp
-git add --all
 echo "add to git stash"
-git commit -m "${time}"
+git commit -a -m "${time}"
 git pull
 git push origin master
 
