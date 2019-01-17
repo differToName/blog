@@ -2,9 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://bigyyl.cn/2019/01/08/hello-world/</loc>
+    <loc>http://bigyyl.cn/categories/index.html</loc>
     
-    <lastmod>2019-01-07T16:01:21.874Z</lastmod>
+    <lastmod>2019-01-17T08:13:20.613Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bigyyl.cn/about/index.html</loc>
+    
+    <lastmod>2019-01-17T03:57:11.120Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bigyyl.cn/2019/01/16/SpringCloud/</loc>
+    
+    <lastmod>2019-01-17T01:09:51.060Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bigyyl.cn/2019/01/16/java/</loc>
+    
+    <lastmod>2019-01-17T01:09:27.887Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bigyyl.cn/schedule/index.html</loc>
+    
+    <lastmod>2019-01-16T10:28:37.934Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bigyyl.cn/sitemap/index.html</loc>
+    
+    <lastmod>2019-01-16T10:25:24.371Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bigyyl.cn/commonweal/index.html</loc>
+    
+    <lastmod>2019-01-09T08:10:08.272Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bigyyl.cn/archives/index.html</loc>
+    
+    <lastmod>2019-01-09T08:08:57.049Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://bigyyl.cn/tags/index.html</loc>
+    
+    <lastmod>2019-01-09T08:06:53.524Z</lastmod>
     
   </url>
   
