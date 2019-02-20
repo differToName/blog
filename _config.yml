@@ -88,16 +88,16 @@ admin:
   secret: my super secret phrase
   deployCommand: './admin_script/hexo-generate.sh'
 
-live2d:
-  enable: true
-  scriptFrom: local
-  model:
-    use: live2d-widget-model-koharu
-  display:
-    position: right
-    width: 70
-    height: 110
-    hOffset: 20
-    vOffset: -20
-  mobile:
-    show: true
+#live2d:
+ # enable: true
+ # scriptFrom: local
+ # model:
+   # use: live2d-widget-model-koharu
+  #display:
+   # position: right
+   # width: 70
+   # height: 110
+   # hOffset: 20
+   # vOffset: -20
+ # mobile:
+  #  show: true
