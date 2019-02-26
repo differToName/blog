@@ -1,10 +1,10 @@
-title: SpringCloud之理论概念
+title: 1.SpringCloud面试问题及入门
 author: WanLong
 tags:
   - 'SpringCloud  '
 categories:
   - 'SpringCloud  '
-date: 2019-01-16 20:11:00
+date: 2018-01-16 20:11:00
 ---
 **1.传统架构模式以及分布式架构区别  **
 ![image](https://bigyyl-1256623201.cos.ap-chongqing.myqcloud.com/blog/20190226/springcloud%E4%BC%A0%E7%BB%9F%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%88%86%E5%B8%83%E5%BC%8F%E6%9E%B6%E6%9E%84%E5%8C%BA%E5%88%AB.png)  
