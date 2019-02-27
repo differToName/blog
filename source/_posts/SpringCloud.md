@@ -1,4 +1,4 @@
-title: 1.SpringCloud之面试问题及入门
+title: 1.SpringCloud之面试问题
 author: WanLong
 tags:
   - SpringCloud
