@@ -1,9 +1,8 @@
 title: 1.SpringCloud面试问题及入门
 author: WanLong
-tags:
-  - 'SpringCloud  '
+tags: []
 categories:
-  - 'SpringCloud  '
+  - SpringCloud
 date: 2018-01-16 20:11:00
 ---
 **1.传统架构模式以及分布式架构区别  **
