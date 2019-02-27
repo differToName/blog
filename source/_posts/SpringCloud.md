@@ -25,9 +25,19 @@ Spring Cloud就是分布式微服务架构下的一站式解决方案，是各�
 
 ** 5.springCloud和Dubbo有哪些区别？Dubbo是怎么到SpringCloud的？该怎么选择？以及其优缺点。**  
 1.springCloud采用Rest通信（http），而Dubbo是RPC（TCP/UDP）。
-2.springcloud大量技术都是自己的全家桶，而Dubbo很多技术是整合各个公司，并且Dubbo不具备很多技术如：  
-![image](https://bigyyl-1256623201.cos.ap-chongqing.myqcloud.com/blog/20190226/SpringCloud%E5%92%8CDubbo.png)  
+2.springcloud大量技术都是自己的全家桶，而Dubbo很多技术是整合各个公司，并且Dubbo不具备很多技术如：    
 
+|  | Dubbo | SpringCloud |
+|:-----:|:------:|:-----:|
+| 服务注册中心 | Zookeeper | Eureka等 |
+| 服务调用方式 | RPC | REST API |
+| 服务监控断路器 | Dubbo-monitor | SpringBoot Admin、Hystix |
+| 服务网关 | 无 | Zuul、SpringCloud GateWay |
+| 分布式配置中心 | 无 | Zookeeper 、SpringCloud Config |
+| 服务跟踪 | 无 | SpringCloud Sleuth |
+| 消息总线 | 无 | SpringCloud Bus |
+| 数据流 | 无 | SpringCloud Stream |
+| 批量任务 | 无 | SpringCloud Task |
 
 ** 6.springboot和springcloud，请你谈谈对他们的理解**  
 SpringBoot是一个一个微服务的实现，关注微观，而SpringCloud是分布式微服务下的一站式解决方案，关注全局的微服务协调整理治理框架，将SpringBoot开发的一个个单体微服务整合并管理起来，更偏向宏观。
